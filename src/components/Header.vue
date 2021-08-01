@@ -50,7 +50,9 @@
         <v-btn 
           icon
         >
-          <v-icon color="orange darken-2">mdi-bell</v-icon>
+          <v-icon color="orange darken-2">
+            mdi-bell
+          </v-icon>
         </v-btn>
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
@@ -62,17 +64,23 @@
               v-on="on"
               x-large
             >
-              <v-icon>mdi-account-circle</v-icon>
+              <v-icon>
+                mdi-account-circle
+              </v-icon>
             </v-btn>
           </template>
           <v-list>
             <v-list-item>
-              <v-list-item-title class="cursor-pointer">
+              <v-list-item-title 
+                class="cursor-pointer"
+              >
                 Profile
               </v-list-item-title>
             </v-list-item>
             <v-list-item>
-              <v-list-item-title class="cursor-pointer">
+              <v-list-item-title 
+                class="cursor-pointer"
+              >
                 Log out
               </v-list-item-title>
             </v-list-item>
@@ -94,27 +102,37 @@
           active-class="deep-purple--text text--accent-4"
         >
           <v-list-item>
-            <v-list-item-title class="uppercase deep-orange--text text--darken-3">
+            <v-list-item-title 
+              class="uppercase deep-orange--text text--darken-3"
+            >
               Dashboard
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
-            <v-list-item-title class="uppercase deep-orange--text text--darken-3">
+            <v-list-item-title 
+              class="uppercase deep-orange--text text--darken-3"
+            >
               Jobs Applyed
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
-            <v-list-item-title class="uppercase deep-orange--text text--darken-3">
+            <v-list-item-title 
+              class="uppercase deep-orange--text text--darken-3"
+            >
               Tests
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
-            <v-list-item-title class="uppercase deep-orange--text text--darken-3">
+            <v-list-item-title 
+              class="uppercase deep-orange--text text--darken-3"
+            >
               Messages
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
-            <v-list-item-title class="uppercase deep-orange--text text--darken-3">
+            <v-list-item-title 
+              class="uppercase deep-orange--text text--darken-3"
+            >
               Profile
             </v-list-item-title>
           </v-list-item>
