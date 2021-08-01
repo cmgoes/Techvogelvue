@@ -1,5 +1,5 @@
 <template>
-  <v-app :style="image">
+  <v-app :style="image" style="background-size: 100% auto">
     <UserInfo />
   </v-app>
 </template>
