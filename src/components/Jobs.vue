@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white border-8 border-t-0">
-    <v-container class="flex">
-      <h3 class="text-h4 flex items-center text-center"> Jobs <br/>
+    <v-container class="flex flex-col lg:flex-row md:flex-col sm:flex-col">
+      <h3 class="text-h4 flex items-center text-center justify-center"> Jobs <br/>
          Available
       </h3>
       <v-row class="m-0">
@@ -28,15 +28,23 @@
           </div>
         </v-col>
       </v-row>
-      <div class="flex items-center">
-        <v-btn
+      <div class="flex items-center justify-center">
+        <v-btn class="mx-3"
          icon
+         height="60"
+         width="60"
         >
-         <v-icon></v-icon>
-        </v-btn>
-        <v-btn
+         <v-icon class="mdi-rotate-90 "
           color="orange darken-2"
-          class="font-bold white--text mr-3"
+          size="50"
+         >
+                mdi-triangle
+          </v-icon>
+        </v-btn>
+        <v-btn 
+          color="orange darken-2"
+          class="font-bold white--text mx-3"
+          dark
         >
          See+
         </v-btn>
