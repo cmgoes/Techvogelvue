@@ -2,14 +2,17 @@
   <v-app :style="image" style="background-size: 100% auto">
     <UserInfo />
     <Jobs/>
-
       <div class="flex p-4 bg-white">
         <div class="w-1/3 mr-8">
           <Experience />
           <SoftSkills />
         </div>
         <div class="w-1/2 mr-8">dffdf</div>
-        <div class="w-1/6">dfdfdf</div>
+        <div class="w-1/6">
+          <Areas/>
+          <Language/>
+          <DataBanks/>
+        </div>
       </div>
 
   </v-app>
@@ -23,6 +26,9 @@ import Jobs from '../components/Jobs.vue';
 
 import Experience from '../components/Experience';
 import SoftSkills from '../components/SoftSkills';
+import Areas from '../components/Areas';
+import Language from '../components/Language';
+import DataBanks from '../components/Data_Banks';
 
 export default {
   watch: {
@@ -35,6 +41,9 @@ export default {
 
     Experience,
     SoftSkills,
+    Areas,
+    Language,
+    DataBanks,
 
   },
   data: () => ({

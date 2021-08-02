@@ -9,6 +9,7 @@
     >
       <div  
         class="bg-yellow-400 p-1 rounded"
+        min-width="80"
       >
         {{ softskill.text }}
       </div>
