@@ -16,7 +16,7 @@ export default {
   data: function () {
 		return {
 			datacollection: {
-				labels: [['40%','Matlab'], ['60%','Blockchain'],['50%','Website'],['54%','Mobile App']],
+				labels: [['45%','Matlab'], ['60%','Blockchain'],['50%','Website'],['54%','Mobile App']],
 				datasets: [
 					{
 						label: 'Data One',
