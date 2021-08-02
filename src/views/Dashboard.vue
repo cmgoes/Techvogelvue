@@ -3,21 +3,20 @@
     <UserInfo />
     <Jobs/>
     <div class="flex p-4 bg-white">
-      <div class="w-1/3 mr-8">
+      <div class="w-3/10 mr-8">
         <Experience />
         <SoftSkills />
       </div>
-      <div class="w-1/2 mr-8">  
+      <div class="w-1/2 mr-8">
         <ProgrammingChart />
         <TestsTable />
       </div>
-      <div class="w-1/6">
-        <Areas/>
-        <Language/>
-        <DataBanks/>
+      <div class="w-1/5">
+        <Areas />
+        <Language />
+        <DataBanks />
       </div>
     </div>
-
   </v-app>
 </template>
 
@@ -27,10 +26,11 @@ import UserInfo from '../components/UserInfo';
 import Jobs from '../components/Jobs.vue';
 import Experience from '../components/Experience';
 import SoftSkills from '../components/SoftSkills';
+import ProgrammingChart from '../components/ProgrammingChart';
+import TestsTable from '../components/TestsTable';
 import Areas from '../components/Areas';
 import Language from '../components/Language';
-import DataBanks from '../components/Data_Banks';
-import ProgrammingChart from '../components/ProgrammingChart';
+import DataBanks from '../components/DataBanks';
 
 export default {
   watch: {
@@ -41,11 +41,11 @@ export default {
     Jobs,
     Experience,
     SoftSkills,
+    ProgrammingChart,
+    TestsTable,
     Areas,
     Language,
-    DataBanks,
-    ProgrammingChart,
-    // TestsTable,
+    DataBanks
   },
   data: () => ({
       image: { backgroundImage: "url(./assets/bg.jfif)" }

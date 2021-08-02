@@ -1,70 +1,102 @@
 <template>
-  <div class="Bar_chart p-2 border-8">
-    <h4 class="text-h4">Areas</h4>
-    <Barcharta :chartData="datacollection" :options="options"/>
-    
-  </div>    
+  <div
+    class="border-8 divide-solid divide-gray-300 p-4 mb-8"
+  >
+    <p class="text-2xl">
+      Tests
+    </p>
+    <div>
+      <apexchart
+        type="bar"
+        height="300"
+        :options="chartOptions"
+        :series="series"
+      ></apexchart>
+      <div class="flex justify-around pl-6 pr-4 text-center">
+        <p>MatLab</p>
+        <p>BlockChain</p>
+        <p>Website</p>
+        <p>Mobile App</p>
+      </div>
+    </div>
+  </div>
 </template>
+
 <script>
-// import { component } from 'vue/types/umd'
-import Barcharta from './Barchart.vue'
+import VueApexCharts from "vue-apexcharts";
 export default {
-  name:'Barchart',
-  components:{
-    Barcharta,
+  name: "TestsTable",
+  components: {
+    apexchart: VueApexCharts,
   },
-  data: function () {
-		return {
-			datacollection: {
-				labels: [['45%','Matlab'], ['60%','Blockchain'],['50%','Website'],['54%','Mobile App']],
-				datasets: [
-					{
-						label: 'Data One',
-						backgroundColor: '#2911abe6',
-						// pointBackgroundColor: 'white',
-						borderWidth: 1,
-						pointBorderColor: '#249EBF',
-						data: [45, 60, 50, 54],
-					}
-]
-			},
-			options: {
-				scales: {
-					yAxes: [{
-						ticks: {
-							beginAtZero:true,
-              display: false
-						},
-						gridLines: {
-              // drawBorder: false,
-							display: false
-						},
-					}],
-					xAxes: [{
-						ticks: {
-							beginAtZero: true
-						},
-            maxBarThickness: 30,
-            categoryPercentage: 1.0,
-            barPercentage: 1.0,
-						gridLines: {
-							display: false
-						}
-					}]
-				},
-				legend: {
-					display: false
-				},
-				tooltips: {
-					enabled: true,
-					mode: 'single',
-				},
-				responsive: true,
-				maintainAspectRatio: false,
-				height: 100
-}
-		}
-	},
-  
-}
+  data() {
+    return {
+      ddd: this.areaValue,
+      series: [
+        {
+          name: "Correct answers",
+          data: [45, 60, 30, 54],
+          color: '#90CAF9'
+        }        
+      ],
+      chartOptions: {
+        chart: {
+          type: 'bar',
+          height: 350,
+          stacked: true,
+          toolbar: {
+            show: false,
+          }
+        },
+        stroke: {
+          width: 0,
+        },
+        dataLabels: {
+          enabled: false
+        },
+        yaxis: {
+          show: false,
+        },
+        xaxis: {
+          tickPlacement: 'between',
+          categories: [45, 60, 30, 54],
+          labels: {
+            offsetY: 10,
+            style: {
+              fontSize: "20px",
+              colors: '#039BE5'
+            },
+            formatter: function (value) {
+              return value + "%";
+            }          
+          },
+        },
+        grid: {
+          show: false,
+        },
+        tooltip: {
+          style: {
+            fontSize: "16px"
+          },
+          // y: {
+          //   title: {
+          //     formatter: (seriesName) => "",
+          //   },
+          // },
+        },
+        fill: {
+          opacity: 1,
+        },
+        legend: {
+          show: false,
+        },
+      },
+    };
+  },
+  methods: {
+  },
+  computed: {
+  },
+};
 </script>
+
