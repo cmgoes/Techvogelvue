@@ -8,7 +8,10 @@
           <Experience />
           <SoftSkills />
         </div>
-        <div class="w-1/2 mr-8">dffdf</div>
+        <div class="w-1/2 mr-8">
+          <ProgrammingChart />
+          <TestsTable />
+        </div>
         <div class="w-1/6">dfdfdf</div>
       </div>
 
@@ -18,11 +21,11 @@
 <script>
 
 import UserInfo from '../components/UserInfo';
-
 import Jobs from '../components/Jobs.vue';
-
 import Experience from '../components/Experience';
 import SoftSkills from '../components/SoftSkills';
+import ProgrammingChart from '../components/ProgrammingChart';
+import TestsTable from '../components/TestsTable'
 
 export default {
   watch: {
@@ -30,12 +33,11 @@ export default {
   name: 'Dashboard',  
   components: {
     UserInfo,
-
     Jobs,
-
     Experience,
     SoftSkills,
-
+    ProgrammingChart,
+    TestsTable,
   },
   data: () => ({
       image: { backgroundImage: "url(./assets/bg.jfif)" }
