@@ -3,13 +3,11 @@
     class="border-8 divide-solid divide-gray-300 p-4 mb-8"
   >
     <p 
-      class="text-xl font-extrabold text-yellow-500"
+      class="text-3xl font-extrabold text-yellow-500"
     >
       About me
     </p>
-    <p 
-      class="text-sm"
-    >
+    <p class="text-lg">
       It is a long established fact that a reader will be distracted 
       by the readable content of a page when looking at its layout.
       The point of using Lorem Ipsum is that it has a more-or-less 
@@ -18,17 +16,17 @@
       Many desktop publishing packages and web page edi.
     </p>
     <p 
-      class="text-xl font-extrabold text-yellow-500"
+      class="text-3xl font-extrabold text-yellow-500"
     >
       Work Experiences
     </p>
     <p 
-      class="font-bold mb-2"
+      class="font-bold mb-2 text-xl"
     >
       Mid Level Full Stack Developer
     </p>
     <p 
-      class="mb-2 text-sm"
+      class="mb-2 text-lg"
     >
       <span 
         class="text-yellow-500 font-bold mr-2"
@@ -41,9 +39,7 @@
         At Bank BTG
       </span>
     </p>
-    <p
-      class="text-sm"
-    >
+    <p class="text-lg">
       It is a long established fact that a reader will be distracted 
       by the readable content of a page when looking at its layout.
       The point of using Lorem Ipsum is that it has a more-or-less 
@@ -51,12 +47,12 @@
       making it look like readable English.
     </p>
     <p 
-      class="font-bold mb-2"
+      class="font-bold mb-2 text-xl"
     >
       Senior Full Stack Developer
     </p>
     <p 
-      class="mb-2 text-sm"
+      class="mb-2 text-lg"
     >
       <span 
         class="text-yellow-500 font-bold mr-2"
@@ -69,9 +65,7 @@
         At Decathion
       </span>
     </p>
-    <p
-      class="text-sm"
-    >
+    <p class="text-lg">
       It is a long established fact that a reader will be distracted 
       by the readable content of a page when looking at its layout.
       The point of using Lorem Ipsum is that it has a more-or-less 
@@ -79,22 +73,22 @@
       making it look like readable English.
     </p>
     <p 
-      class="text-xl font-extrabold text-yellow-500"
+      class="text-2xl font-extrabold text-yellow-500"
     >
       Education
     </p>
     <p 
-      class="text-yellow-500 font-bold text-sm mb-2"
+      class="text-yellow-500 font-bold text-lg mb-2"
     >
       2015-2020
     </p>
     <p 
-      class="font-bold mb-2"
+      class="font-bold mb-2 text-xl"
     >
       Computer Science
     </p>
     <p 
-      class="font-bold text-sm"
+      class="font-bold text-lg"
     >
       At Decathion
     </p>

@@ -8,8 +8,7 @@
       class="mb-3 flex justify-between items-center pr-8"
     >
       <div  
-        class="bg-yellow-400 p-1 rounded"
-        min-width="80"
+        class="bg-yellow-400 p-1 rounded text-lg"
       >
         {{ softskill.text }}
       </div>

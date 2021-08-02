@@ -34,11 +34,11 @@
          height="60"
          width="60"
         >
-         <v-icon class="mdi-rotate-90 "
-          color="orange darken-2"
-          size="50"
-         >
-                mdi-triangle
+          <v-icon class="mdi-rotate-90"
+            color="orange darken-2"
+            size="50"
+          >
+            mdi-triangle
           </v-icon>
         </v-btn>
         <v-btn 
@@ -49,7 +49,6 @@
          See+
         </v-btn>
       </div>
-     
       </v-container>
   </div>
 </template>
