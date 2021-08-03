@@ -1,7 +1,7 @@
 <template>
   <div class="Language border-8 p-5 my-4 flex flex-column">
     <h5 
-      class="text-h5"
+      class="text-h5 mb-4"
     >
       Language
     </h5>
@@ -15,13 +15,13 @@
         height="40"
         >
           <td 
-            class="border-yellow-500 border-r-4 px text-xs font-bold" 
+            class="border-yellow-500 border-r-4 px font-bold" 
             :class="i==Languages.length - 1 ? '' : 'border-b-4'"
           >
             {{item.title}}
             </td>
           <td 
-            class=" border-yellow-500 px text-xs" 
+            class=" border-yellow-500 px" 
             :class="i==Languages.length - 1 ? '' : 'border-b-4'"
           >
             {{item.degree}}

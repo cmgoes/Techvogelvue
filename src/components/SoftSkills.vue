@@ -1,6 +1,8 @@
 <template>
   <div 
-    class="border-8 divide-solid divide-gray-300 p-4"
+    class="border-8 divide-solid divide-gray-300 
+    p-4 xs:mb-8 sm:mb-8 2xl:mb-0 w-full lg:w-1/3 2xl:w-full
+    w-10"
   >
     <p class="text-2xl">Soft Skills</p>
     <div 

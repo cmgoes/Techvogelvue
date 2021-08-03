@@ -8,7 +8,7 @@
       class="mb-3 flex justify-between items-center "
     >
       <div  
-        class="p-1"
+        class="p-1 text-lg"
       >
         {{ DataBank.text }}
       </div>
