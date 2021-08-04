@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="border-8 divide-solid divide-gray-300 p-4 mb-8"
+    class="border-8 divide-solid divide-gray-300 p-4 mb-8 xs:mr-8 sm:mr-8 2xl:mr-0 w-full lg:w-2/3 2xl:w-full"
   >
     <p 
       class="text-3xl font-extrabold text-yellow-500"
