@@ -3,7 +3,7 @@
     class="border-8 divide-solid divide-gray-300 p-4 mb-8"
   >
     <p class="text-2xl">
-      Tests
+      Areas
     </p>
     <div>
       <apexchart

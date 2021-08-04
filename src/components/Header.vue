@@ -19,13 +19,15 @@
         
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/"
         >
           Dashboard
         </v-btn>
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/jobs"
         >
           Jobs Applyed
         </v-btn>
@@ -43,7 +45,8 @@
         </v-btn>
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/profile"
         >
           Profile
         </v-btn>
@@ -73,6 +76,7 @@
             <v-list-item>
               <v-list-item-title 
                 class="cursor-pointer"
+                 to="/profile"
               >
                 Profile
               </v-list-item-title>
@@ -132,6 +136,7 @@
           <v-list-item>
             <v-list-item-title 
               class="uppercase deep-orange--text text--darken-3"
+               to="/profile"
             >
               Profile
             </v-list-item-title>
