@@ -23,7 +23,9 @@
                 offset-x="20"
                 offset-y="20"
               >
-                <v-avatar size="100">
+                <v-avatar 
+                  size="100"
+                >
                   <v-img :src="userimage"></v-img>
                 </v-avatar>
               </v-badge>
@@ -51,7 +53,9 @@
               <div 
                 class="xs:mb-4 sm:mb-4 md:mb-0 mr-8"
               >
-                <div class="flex">
+                <div 
+                  class="flex"
+                >
                   <v-img
                     src="./assets/br.svg"
                     max-width="22"
@@ -78,7 +82,9 @@
                   small 
                   block
                 >
-                  <v-icon color="light-blue darken-3">
+                  <v-icon 
+                    color="light-blue darken-3"
+                  >
                     fab fa-linkedin
                   </v-icon>
                 </v-btn>
@@ -87,7 +93,9 @@
                   small 
                   block
                 >
-                  <v-icon color="grey darken-4">
+                  <v-icon 
+                    color="grey darken-4"
+                  >
                     fab fa-github
                   </v-icon>
                 </v-btn>
@@ -128,7 +136,9 @@
                     Global Rank
                   </v-row>
               </v-col>
-              <v-col class="mr-8">
+              <v-col 
+                class="mr-8"
+              >
                 <v-row 
                   class="text-xl font-bold uppercase whitespace-nowrap justify-center"
                 >
@@ -160,33 +170,48 @@
             <v-btn
               color="blue darken-1"
               class="white--text font-bold"
+              to="/rank"
             >
               Rank
             </v-btn>
           </div>
           <div>
-            <div class="flex">
-              <div class="mr-4">
-                <p class="mb-0">
+            <div 
+              class="flex"
+            >
+              <div 
+                class="mr-4"
+              >
+                <p 
+                  class="mb-0"
+                >
                   Profile Complete
                 </p>
-                <div class="flex">
+                <div 
+                  class="flex"
+                >
                   <div 
                     class="border-black border-4 divide-solid w-40 h-6 mr-2"
                   >
                     <div 
-                      class="bg-yellow-500 h-full" 
+                      class="bg-orange-darken h-full" 
                       :style="profileWidth"
                     ></div>
                   </div>
-                  <p class="font-bold mb-0">
+                  <p 
+                    class="font-bold mb-0"
+                  >
                     {{ widthValue }}
                   </p>
                 </div>
               </div>
               <div>
-                <v-btn icon>
-                  <v-icon color="grey darken-4">
+                <v-btn 
+                  icon
+                >
+                  <v-icon 
+                    color="grey darken-4"
+                  >
                     fas fa-pencil-alt
                   </v-icon>
                 </v-btn>

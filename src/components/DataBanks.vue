@@ -2,7 +2,9 @@
   <div 
     class="border-8 divide-solid divide-gray-300 p-4"
   >
-    <p class="text-2xl">Data Banks</p>
+    <p class="text-2xl">
+      Data Banks
+    </p>
     <div 
       v-for="(DataBank, index) in DataBanks" :key="index"
       class="mb-3 flex justify-between items-center "

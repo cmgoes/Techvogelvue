@@ -2,8 +2,12 @@
   <div
     class="p-4 bg-white"
   >
-    <div class="flex flex-col sm:flex-row items-center justify-between mb-2 overflow-x-hidden githubwidth">
-      <p class="mb-0">
+    <div 
+      class="flex flex-col sm:flex-row items-center justify-between mb-2 overflow-x-hidden githubwidth"
+    >
+      <p 
+        class="mb-0"
+      >
         {{ totalCommitNumber }} contributions in the last year
       </p>
       <div>
@@ -16,7 +20,9 @@
         ></v-select>
       </div>
     </div>
-    <div class="py-2 px-8 border divide-solid boder-red-400 githubwidth">
+    <div 
+      class="py-2 px-8 border divide-solid boder-red-400 githubwidth"
+    >
       <div>
         <apexchart
           id="githubchart"
@@ -27,8 +33,12 @@
           :series="series"
         ></apexchart>
       </div>
-      <div class="flex flex-col-reverse sm:flex-row items-center">
-        <p class="mb-0">
+      <div 
+        class="flex flex-col-reverse sm:flex-row items-center"
+      >
+        <p 
+          class="mb-0"
+        >
           <v-hover>
             <a
               slot-scope="{ hover }"
@@ -40,7 +50,9 @@
             </a>
           </v-hover>
         </p>
-        <div class="flex text-sm items-center justify-end">
+        <div 
+          class="flex text-sm items-center justify-end"
+        >
           <p class="mb-0 mr-1">Less</p>
           <div class="w-2.5 h-2.5 mr-1 rounded-sm" style="background: #ebedf0"></div>
           <div class="w-2.5 h-2.5 mr-1 rounded-sm" style="background: #9be9a8"></div>

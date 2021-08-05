@@ -12,11 +12,23 @@
         :options="chartOptions"
         :series="series"
       ></apexchart>
-      <div class="flex justify-around pl-6 pr-4 text-center">
-        <p>MatLab</p>
-        <p>BlockChain</p>
-        <p>Website</p>
-        <p class="whitespace-nowrap">Mobile App</p>
+      <div 
+        class="flex justify-around pl-6 pr-4 text-center"
+      >
+        <p>
+          MatLab
+        </p>
+        <p>
+          BlockChain
+        </p>
+        <p>
+          Website
+        </p>
+        <p 
+          class="whitespace-nowrap"
+        >
+          Mobile App
+        </p>
       </div>
     </div>
   </div>
@@ -76,11 +88,6 @@ export default {
         style: {
           fontSize: "16px"
         },
-        // y: {
-        //   title: {
-        //     formatter: (seriesName) => "",
-        //   },
-        // },
       },
       fill: {
         opacity: 1,
@@ -96,3 +103,4 @@ export default {
   },
 };
 </script>
+

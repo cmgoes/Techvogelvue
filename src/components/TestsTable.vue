@@ -2,10 +2,14 @@
   <div
     class="border-8 divide-solid divide-gray-300 p-4 mb-8"
   >
-    <p class="text-2xl">
+    <p 
+      class="text-2xl"
+    >
       Tests
     </p>
-    <div class="flex flex-col sm:flex-row justify-between items-end">
+    <div 
+      class="flex flex-col sm:flex-row justify-between items-end"
+    >
       <apexchart
         type="bar"
         height="350"
@@ -17,7 +21,9 @@
         large
         color="light-blue lighten-1"
         class="white--text"
-      >Results</v-btn>
+      >
+        Results
+      </v-btn>
     </div>
   </div>
 </template>
@@ -96,11 +102,6 @@ export default {
         style: {
           fontSize: "16px"
         },
-        // y: {
-        //   title: {
-        //     formatter: (seriesName) => "",
-        //   },
-        // },
       },
       fill: {
         opacity: 1,

@@ -3,7 +3,9 @@
     <v-app-bar
       color="deep-purple accent-4"
     >
-      <v-container class="flex items-center">
+      <v-container 
+        class="flex items-center"
+      >
         <v-img
           src="./assets/vogel-logo.svg"
           max-width="130"
@@ -19,13 +21,15 @@
         
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/"
         >
           Dashboard
         </v-btn>
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/jobs"
         >
           Jobs Applyed
         </v-btn>
@@ -43,7 +47,8 @@
         </v-btn>
         <v-btn
           color="orange darken-2"
-          class="font-bold white--text mr-3 hidden lg:block"
+          class="font-bold white--text mr-3 hidden lg:block pa-3"
+          to="/profile"
         >
           Profile
         </v-btn>
@@ -73,6 +78,7 @@
             <v-list-item>
               <v-list-item-title 
                 class="cursor-pointer"
+                 to="/profile"
               >
                 Profile
               </v-list-item-title>
@@ -101,14 +107,14 @@
           v-model="group"
           active-class="deep-purple--text text--accent-4"
         >
-          <v-list-item>
+          <v-list-item to="/">
             <v-list-item-title 
               class="uppercase deep-orange--text text--darken-3"
             >
               Dashboard
             </v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <v-list-item to="/jobs">
             <v-list-item-title 
               class="uppercase deep-orange--text text--darken-3"
             >
@@ -129,9 +135,10 @@
               Messages
             </v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <v-list-item to="/profile">
             <v-list-item-title 
               class="uppercase deep-orange--text text--darken-3"
+               
             >
               Profile
             </v-list-item-title>

@@ -4,7 +4,11 @@
     p-4 xs:mb-8 sm:mb-8 2xl:mb-0 w-full lg:w-1/3 2xl:w-full
     w-10"
   >
-    <p class="text-2xl">Soft Skills</p>
+    <p 
+      class="text-2xl"
+    >
+      Soft Skills
+    </p>
     <div 
       v-for="(softskill, index) in softskills" :key="index"
       class="mb-3 flex justify-between items-center pr-8"

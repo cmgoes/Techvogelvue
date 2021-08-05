@@ -1,9 +1,9 @@
 <template>
   <div 
-    class="border-8 divide-solid divide-gray-300 p-4 mb-8 xs:mr-8 sm:mr-8 2xl:mr-0 w-full lg:w-2/3 2xl:w-full"
+    class="border-8 divide-solid divide-gray-300 p-4 mb-8 xs:mr-8 sm:mr-8 2xl:mr-0 w-full"
   >
     <p 
-      class="text-3xl font-extrabold text-yellow-500"
+      class="text-3xl font-bold text-yellow-500"
     >
       About me
     </p>
@@ -16,7 +16,7 @@
       Many desktop publishing packages and web page edi.
     </p>
     <p 
-      class="text-3xl font-extrabold text-yellow-500"
+      class="text-3xl font-bold text-yellow-500"
     >
       Work Experiences
     </p>
@@ -73,7 +73,7 @@
       making it look like readable English.
     </p>
     <p 
-      class="text-2xl font-extrabold text-yellow-500"
+      class="text-2xl font-bold text-yellow-500"
     >
       Education
     </p>

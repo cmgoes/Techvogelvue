@@ -39,12 +39,23 @@ export default {
   name:'Language',
   data: () => ({
     Languages:[
-      { title:'Portuguese',degree:'Fluent' },
-      { title:'English',degree:'Advanced' },
-      { title:'Spanish',degree:'Intermediary' },
-      { title:'Franch',degree:'Begginer' },
+      { 
+        title:'Portuguese',
+        degree:'Fluent' 
+      },
+      { 
+        title:'English',
+        degree:'Advanced' 
+      },
+      { 
+        title:'Spanish',
+        degree:'Intermediary' 
+      },
+      { 
+        title:'Franch',
+        degree:'Begginer' 
+      },
     ]
-    }),
-
+  }),
 }
 </script>

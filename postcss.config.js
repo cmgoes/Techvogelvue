@@ -4,7 +4,7 @@ module.exports = {
       theme: {
         extend: {
           colors: {
-            // ...
+            'orange-darken': '#F57C00'
           },
           screens: {
             'xs': {'max': '639px'},

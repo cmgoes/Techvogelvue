@@ -2,7 +2,9 @@
   <div 
     class="border-8 divide-solid divide-gray-300 p-4 mb-8"
   >
-    <p class="text-2xl">
+    <p 
+      class="text-2xl"
+    >
       Programming Languages
     </p>
     <apexchart
